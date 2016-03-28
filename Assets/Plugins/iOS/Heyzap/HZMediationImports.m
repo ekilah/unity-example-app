@@ -3,17 +3,30 @@
 // It imports the frameworks that each of the 3rd-party SDKs need.
 
 @import AVFoundation;
+@import Accelerate;
 @import AdSupport;
+@import AudioToolbox;
+@import CFNetwork;
 @import CoreGraphics;
+@import CoreLocation;
 @import CoreMedia;
 @import CoreTelephony;
 @import EventKit;
 @import EventKitUI;
+@import FBAudienceNetwork;
+@import Foundation;
+@import GoogleMobileAds;
+@import MediaPlayer;
+@import MessageUI;
 @import MobileCoreServices;
 @import QuartzCore;
+@import SafariServices;
 @import Security;
+@import Social;
 @import StoreKit;
 @import SystemConfiguration;
+@import UIKit;
+@import WebKit;
 @import iAd;
 
 @interface HZMediationImports : NSObject
